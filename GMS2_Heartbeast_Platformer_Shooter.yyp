@@ -267,6 +267,25 @@
             }
         },
         {
+            "Key": "828376e4-9875-409b-9929-756b14f21b36",
+            "Value": {
+                "id": "f4cb051c-288e-4cc9-bce2-01f364864e64",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sGun\/sGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "96752400-0968-4acd-9bb1-b9eeda7ee46e",
             "Value": {
                 "id": "06eb35ed-ce69-4cea-9ba6-bcfd21142dbf",

@@ -6,14 +6,14 @@ if (hInput != 0) {
 	hSpeed_ += hInput * acceleration_;
 	hSpeed_ = clamp(hSpeed_, -max_hSpeed, max_hSpeed);
 } else {
-	hSpeed_ = lerp(hSpeed_, 0, .3);
+	hSpeed_ = lerp(hSpeed_, 0, friction_);
 }
 
 if (!place_meeting(x,y + 1, oSolid)) {
 	vSpeed_ += gravity_;
 } else {
 	if (keyboard_check_pressed(vk_up)) {
-		vSpeed_ = -16;
+		vSpeed_ = jumpHeight_;
 	}
 }
 
