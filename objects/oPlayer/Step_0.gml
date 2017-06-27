@@ -1,11 +1,12 @@
 /// @description Player Movement
 
-if (keyboard_check(vk_right)) {
-	hSpeed_ = 11;
-} else if (keyboard_check(vk_left)) {
-	hSpeed_ = -11;
+var hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
+
+if (hInput != 0) {
+	hSpeed_ += hInput * acceleration_;
+	hSpeed_ = clamp(hSpeed_, -max_hSpeed, max_hSpeed);
 } else {
-	hSpeed_ = 0;
+	hSpeed_ = lerp(hSpeed_, 0, .3);
 }
 
 if (!place_meeting(x,y + 1, oSolid)) {
