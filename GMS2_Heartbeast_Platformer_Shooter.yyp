@@ -362,6 +362,25 @@
             }
         },
         {
+            "Key": "c493d7ea-c439-4a2a-b25d-062e5c97a30b",
+            "Value": {
+                "id": "b7336370-fffa-4cfd-a877-a228c8005266",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sBullet\/sBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c55c1896-920a-4060-9427-826ae42c5923",
             "Value": {
                 "id": "60ee29d4-8251-4574-a76d-f8fa32eb23fe",
@@ -492,6 +511,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f82abb77-84d1-447e-829e-998db1d15a36",
+            "Value": {
+                "id": "1e0bfbeb-d2f6-4c51-9ba7-86bc25cee4c8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oBullet\/oBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
