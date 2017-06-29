@@ -343,6 +343,25 @@
             }
         },
         {
+            "Key": "a2c87289-71e6-4f32-9fcc-e7ed3cbecbc1",
+            "Value": {
+                "id": "7ee50d85-d202-44e7-89fb-a064552e723a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_MovePush\/scr_MovePush.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5cb854e-090b-47b4-b24a-119be8ebb959",
             "Value": {
                 "id": "c77f2f94-a42f-4879-a9f9-dc3fe93ed99d",
@@ -629,7 +648,8 @@
         }
     ],
     "script_order": [
-        "a9fe333f-12df-4629-89e3-68e3c94ae80c"
+        "a9fe333f-12df-4629-89e3-68e3c94ae80c",
+        "a2c87289-71e6-4f32-9fcc-e7ed3cbecbc1"
     ],
     "tutorial": ""
 }
