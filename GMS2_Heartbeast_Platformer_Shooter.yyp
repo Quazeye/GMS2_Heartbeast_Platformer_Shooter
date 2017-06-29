@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "18dd7bb8-c564-4f42-bafa-e1d244aba2a1",
+            "Value": {
+                "id": "1ec079ae-edc9-47ba-97e1-cfdea833627d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oEnemy\/oEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d6cbb84-f22c-4601-bfc6-1e8db0214fdb",
             "Value": {
                 "id": "85521464-9aa4-49d2-96af-38f22b5678bd",
@@ -362,6 +381,44 @@
             }
         },
         {
+            "Key": "a9fe333f-12df-4629-89e3-68e3c94ae80c",
+            "Value": {
+                "id": "9827dce4-9372-4a5a-a902-9636ea202686",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_Move\/scr_Move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bb3390da-ab21-4f0a-a36a-67296204fc3b",
+            "Value": {
+                "id": "f9e03722-563b-4c7d-adaa-c17443675602",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemy\/sEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c493d7ea-c439-4a2a-b25d-062e5c97a30b",
             "Value": {
                 "id": "b7336370-fffa-4cfd-a877-a228c8005266",
@@ -572,7 +629,7 @@
         }
     ],
     "script_order": [
-        
+        "a9fe333f-12df-4629-89e3-68e3c94ae80c"
     ],
     "tutorial": ""
 }
