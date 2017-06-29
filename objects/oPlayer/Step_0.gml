@@ -14,6 +14,8 @@ if (!place_meeting(x,y + 1, oSolid)) {
 } else {
 	if (keyboard_check_pressed(vk_up)) {
 		vSpeed_ = jumpHeight_;
+		xScale = image_xscale * 0.8;
+		yScale = image_yscale * 1.4;
 	}
 }
 
@@ -34,3 +36,13 @@ if (place_meeting(x,y + vSpeed_, oSolid)) {
 }
 
 y += vSpeed_;
+
+// Check for landing
+if (place_meeting(x,y + 1, oSolid) && !place_meeting(x,yprevious + 1, oSolid)) {
+	xScale = image_xscale * 1.4;
+	yScale = image_yscale * 0.8;
+}
+
+// Move back to normal scale.
+xScale = lerp(xScale, image_xscale, .1);
+yScale = lerp(yScale, image_yscale, .1);
